@@ -25,6 +25,7 @@ while user!=0:
         locationmax=cntmax
     if user<minx:
         minx=user
+        y = 5
         locationmin=cntmin
     user=int(input("insert number, press 0 to stop"))
 print("maximum is:",maxx, "location is:", locationmax)
