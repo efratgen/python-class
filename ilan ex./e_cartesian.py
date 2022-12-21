@@ -8,7 +8,7 @@ def e_cartesian (lst1,lst2):
         for j in lst1:
             value= f"({j},{i})"
             newlist.append (value)
-
+ 
     return newlist        
 
 
